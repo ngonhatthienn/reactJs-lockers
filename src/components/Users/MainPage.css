@@ -1,0 +1,44 @@
+.container {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.main {
+	width: 100%;
+	position: relative;
+}
+/* navbar */
+.nav {
+	height: 60px;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+	padding: 0px !important;
+	color: black;
+	border-bottom: 5px solid gray;
+	/* width: calc(100vw - 200px) !important; */
+	width: 100%;
+	position: absolute;
+}
+.nav h2 {
+	cursor: pointer;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.nav i {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+.nav ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.nav ul li {
+	cursor: pointer;
+}
